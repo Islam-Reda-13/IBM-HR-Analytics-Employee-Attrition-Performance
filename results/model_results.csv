@@ -1,0 +1,46 @@
+FeatureSet,Model,Scaler,Train Acc,Test Acc,F1
+Full,Logistic Regression,MinMaxScaler,0.9097,0.8707,0.5289
+Full,Logistic Regression,StandardScaler,0.9091,0.8685,0.5167
+Full,Random Forest,StandardScaler,1.0,0.8662,0.3516
+Full,Gradient Boosting,StandardScaler,1.0,0.8662,0.404
+Full,Gradient Boosting,MinMaxScaler,1.0,0.8662,0.404
+Full,Gradient Boosting,RobustScaler,1.0,0.8662,0.404
+Full,Logistic Regression,RobustScaler,0.9086,0.8662,0.5203
+Full,Random Forest,MinMaxScaler,1.0,0.8639,0.3333
+Full,Random Forest,RobustScaler,1.0,0.8639,0.3333
+RFECV,Logistic Regression,StandardScaler,0.8675,0.8458,0.5072
+RFECV,Logistic Regression,MinMaxScaler,0.8669,0.8435,0.4964
+RFECV,Random Forest,RobustScaler,1.0,0.8435,0.2887
+RFECV,Random Forest,StandardScaler,1.0,0.8435,0.2887
+RFECV,Random Forest,MinMaxScaler,1.0,0.8435,0.2887
+RFECV,Logistic Regression,RobustScaler,0.8681,0.8413,0.4928
+RFECV,Gradient Boosting,RobustScaler,1.0,0.8254,0.3186
+RFECV,Gradient Boosting,StandardScaler,1.0,0.8254,0.3186
+RFECV,Gradient Boosting,MinMaxScaler,1.0,0.8254,0.3186
+Full,Decision Tree,MinMaxScaler,0.8494,0.8186,0.2857
+Full,Decision Tree,StandardScaler,0.8494,0.8186,0.2857
+Full,Decision Tree,RobustScaler,0.8494,0.8186,0.2857
+Full,KNN,StandardScaler,1.0,0.78,0.331
+Chi2,Random Forest,MinMaxScaler,1.0,0.771,0.2519
+Chi2,Random Forest,RobustScaler,1.0,0.771,0.2519
+Full,KNN,MinMaxScaler,1.0,0.7687,0.2817
+Chi2,Random Forest,StandardScaler,1.0,0.7664,0.237
+Chi2,Gradient Boosting,StandardScaler,0.9842,0.7596,0.2639
+Chi2,Gradient Boosting,RobustScaler,0.9842,0.7596,0.2639
+Chi2,Gradient Boosting,MinMaxScaler,0.9842,0.7596,0.2639
+RFECV,KNN,StandardScaler,1.0,0.7302,0.3425
+Full,KNN,RobustScaler,1.0,0.7188,0.3404
+RFECV,Decision Tree,RobustScaler,0.83,0.7143,0.2841
+RFECV,Decision Tree,StandardScaler,0.83,0.7143,0.2841
+RFECV,Decision Tree,MinMaxScaler,0.83,0.7143,0.2841
+RFECV,KNN,RobustScaler,1.0,0.7052,0.3229
+RFECV,KNN,MinMaxScaler,1.0,0.7007,0.2903
+Chi2,KNN,MinMaxScaler,1.0,0.6712,0.2995
+Chi2,KNN,StandardScaler,1.0,0.6667,0.2967
+Chi2,Logistic Regression,MinMaxScaler,0.6817,0.6644,0.3509
+Chi2,Logistic Regression,RobustScaler,0.6764,0.6621,0.3378
+Chi2,KNN,RobustScaler,1.0,0.6621,0.2938
+Chi2,Logistic Regression,StandardScaler,0.6776,0.6621,0.3378
+Chi2,Decision Tree,MinMaxScaler,0.7526,0.6485,0.2512
+Chi2,Decision Tree,StandardScaler,0.7526,0.6485,0.2512
+Chi2,Decision Tree,RobustScaler,0.7526,0.6485,0.2512
